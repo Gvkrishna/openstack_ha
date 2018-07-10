@@ -20,7 +20,7 @@ The Health Check module is implemented via** Keepalived**, which is based on **L
 **Virtual Router Redundancy Protocol (VRRP)** eliminates **SPOF** by using a **Virtual IP (VIP)** for the service and binding to the service that is running on the functioning controller.  **Keepalived uses VRRP to move the VIPs around**. **MySQL and RabbitMQ service is managed via Keepalived**. HAProxy manages load balancing for HTTP- and TCP-based applications – it load balances the API services. The following diagram illustrates how this works.
 
 
-
+https://blog.rackspace.com/implementing-high-availability-ha-for-rackspace-private-cloud
 
 
 
